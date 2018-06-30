@@ -8,14 +8,7 @@ class Dashboard extends Component {
         <form action method='post' class="form-horizontal">
             <div class="form-group row">
                 <div class="col-md-12">
-                    <span class="input-group-prepend">
-                        <button type="button" class="btn btn-primary">
-                            <i class="fa fa-search">
-                                ::before
-                            </i>
-                            "SEARCH"
-                        </button>
-                    </span>
+                    Homepage Coming Soon!
                 </div>
             </div>
         </form>
