@@ -1,8 +1,0 @@
-
-        .buttons{
-            .buttons {display: block;}
-
-            @media screen and (max-width: 768px) {
-            .buttons {display: none;}
-            }
-        }

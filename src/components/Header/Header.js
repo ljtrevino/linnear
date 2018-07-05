@@ -20,25 +20,9 @@ class Header extends Component {
 
     this.toggle = this.toggle.bind(this);
     this.state = {
-      dropdownOpen: false,
-      isDesktop: false
+      dropdownOpen: false
     };
-    this.updatePredicate = this.updatePredicate.bind(this);
   }
-
-  componentDidMount() {
-    this.updatePredicate();
-    window.addEventListener("resize", this.updatePredicate);
-  }
-
-  componentWillUnmount() {
-    window.removeEventListener("resize", this.updatePredicate);
-  }
-
-  updatePredicate() {
-    this.setState({ isDesktop: window.innerWidth > 900 });
-  }
-
 
   toggle() {
     this.setState({
@@ -67,9 +51,7 @@ class Header extends Component {
   }
 
   render() {
-    const isDesktop = this.state.isDesktop;
     return (
-
       <header className="app-header navbar">
         <NavbarToggler className="d-lg-none" onClick={this.mobileSidebarToggle}>&#9776;</NavbarToggler>
         <NavbarBrand href="#"></NavbarBrand>
@@ -79,25 +61,16 @@ class Header extends Component {
         <Nav className="ml-auto" navbar>
           
         </Nav>
-
-      <div>
-        {isDesktop ? (
-          <div>
-            <a href="https://www.linkedin.com/in/linnearylander">
+          <a href="https://www.linkedin.com/in/linnearylander">
               <button className="btn-linkedin icon btn btn-secondary"><span> LinkedIn </span></button>
-            </a>
-            <a href="https://github.com/lrylander">
-              <button className="btn-github icon btn btn-secondary"><span>Github</span></button>
-            </a>
-            <a href="mailto: linnearylander@gmail.com">
-              <button onclick="sendEmail();" className="btn-vimeo icon btn btn-secondary"><span>Mail</span></button>
-            </a>
+          </a>
 
-          </div>
-        ) : (
-          <div></div>
-        )}
-      </div>
+          <a href="https://github.com/lrylander">
+              <button className="btn-github icon btn btn-secondary"><span>Github</span></button>
+          </a>
+          <a href="mailto: linnearylander@gmail.com">
+              <button onclick="sendEmail();" className="btn-vimeo icon btn btn-secondary"><span>Mail</span></button>
+          </a>
         
       </header>
     )
