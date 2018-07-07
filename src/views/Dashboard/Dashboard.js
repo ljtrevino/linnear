@@ -7,7 +7,7 @@ class Dashboard extends Component {
       <div className="animated fadeIn">
         <form action method='post' class="form-horizontal">
             <div class="form-group row">
-                <div class="col-md-12" style="color: #fff;">
+                <div class="col-md-12">
                     Homepage Coming Soon!
                 </div>
             </div>
