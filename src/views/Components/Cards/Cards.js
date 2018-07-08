@@ -197,7 +197,7 @@ class Cards extends Component {
             </Card>
           </Col>
           <Col xs="12" sm="6" md="4">
-            <Card className="card-accent-info">
+            <Card className="card-accent-primary">
               <CardHeader>
                 Card with accent
               </CardHeader>

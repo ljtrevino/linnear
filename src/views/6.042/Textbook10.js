@@ -7,7 +7,7 @@ class Cards extends Component {
       <div className="animated fadeIn">
         <Row>
           <Col xs="12" sm="12" md="12">
-            <Card style={{height: 80 + "vh"}} className="card-accent-info">
+            <Card style={{height: 80 + "vh"}} className="card-accent-primary">
               <CardHeader>
                 Textbook Notes 10
               </CardHeader>
