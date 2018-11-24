@@ -1,8 +1,8 @@
 export default {
   items: [
     {
-      name: 'Recently Uploaded',
-      url: '/dashboard',
+      name: 'Home',
+      url: '/Home',
       icon: 'icon-clock',
 //      badge: {
 //        variant: 'info',

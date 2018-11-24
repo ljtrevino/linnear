@@ -9,6 +9,9 @@ import Footer from '../../components/Footer/';
 
 //MIT
 import Dashboard from '../../views/Dashboard/';
+import Home from '../../views/Dashboard/Home';
+import Welcome from '../../views/Dashboard/Welcome';
+import FAQ from '../../views/Dashboard/FAQ';
 import Cards from '../../views/Components/Cards/';
 import Lecture6009 from '../../views/6.009/Lecture';
   import Lecture6009_L1 from '../../views/6.009/Lecture1';
@@ -341,7 +344,10 @@ class Full extends Component {
             <Breadcrumb />
             <Container fluid>
               <Switch>
-                <Route path="/dashboard" name="Dashboard" component={Dashboard}/>
+                <Route path="/Dashboard" name="Dashboard" component={Dashboard}/>
+                <Route path="/Welcome" name="Welcome" component={Welcome}/>
+                <Route path="/FAQ" name="FAQ" component={FAQ}/>
+                <Route path="/Home" name="Home" component={Home}/>
                 <Route path="/components/cards" name="Cards" component={Cards}/>
                 <Route path="/6.009/Lecture" name="Lecture" component={Lecture6009}/>
                 <Route path="/6.009/Tutorial" name="Tutorial" component={Tutorial6009}/>
@@ -650,6 +656,8 @@ class Full extends Component {
 
                 <Route path="/APPhysicsC/APPhysicsC1" component={APPhysicsC1}/>
                 <Route path="/APPhysicsC/APPhysicsC2" component={APPhysicsC2}/>
+
+       
 
                 <Route path="/DiffEq/DiffEq1" component={DiffEq1}/>
                 <Route path="/DiffEq/DiffEq2" component={DiffEq2}/>

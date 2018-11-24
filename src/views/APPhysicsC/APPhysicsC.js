@@ -7,7 +7,7 @@ class Cards extends Component {
       <div className="animated fadeIn">
         <Row>
           <Col xs="12" sm="6" md="4">
-          <a href="#/APCalcBC/APCalcBC1" style={{ textDecoration: 'none', color: "black" }}>
+          <a href="#/APPhysicsC/APPhysicsC1" style={{ textDecoration: 'none', color: "black" }}>
             <Card className="card-accent-primary">
               <CardHeader>
                 Mechanics
@@ -19,7 +19,7 @@ class Cards extends Component {
           </a>
           </Col>
           <Col xs="12" sm="6" md="4">
-          <a href="#/APCalcBC/APCalcBC2" style={{ textDecoration: 'none', color: "black" }}>
+          <a href="#/APPhysicsC/APPhysicsC2" style={{ textDecoration: 'none', color: "black" }}>
             <Card className="card-accent-primary">
               <CardHeader>
                 Electricity & Magnetism

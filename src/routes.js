@@ -1,6 +1,7 @@
 const routes = {
   '/': 'Home',
-  '/dashboard': 'Recently Uploaded',
+  '/Dashboard': 'Dashboard',
+  '/Home': 'Home',
   '/6.009/Lecture': '6.009 Lecture',
   '/6.009/Tutorial': '6.009 Tutorial',
   '/3.091/Lecture': '3.091 Lecture',
@@ -314,6 +315,9 @@ const routes = {
 
   '/APPhysicsC/APPhysicsC1': 'AP Physics C ' + '  /  ' + ' Mechanics',
   '/APPhysicsC/APPhysicsC2': 'AP Physics C ' + '  /  ' + ' Electricity & Magnetism',
+
+  '/Welcome': 'Home ' + '  /  ' + ' Welcome',
+  '/FAQ': 'Home ' + '  /  ' + ' FAQ',
 
   '/DiffEq/DiffEq1': 'Differential Equations ' + '  /  ' + ' Unit 1',
   '/DiffEq/DiffEq2': 'Differential Equations ' + '  /  ' + ' Unit 2',
