@@ -9,7 +9,7 @@ class Cards extends Component {
           <Col xs="12" sm="12" md="12">
             <Card style={{height: 80 + "vh"}} className="card-accent-primary">
               <CardHeader>
-                Lecture 22
+                Lecture 22 - Multicore Algorithms
               </CardHeader>
               <CardBlock className="card-body">
                  <embed style={{height: 70 + "vh"}} width="100%" src="https://drive.google.com/file/d/1Oy_hte3r_4CIDoAJ0HOAcY972Z0bigNY/preview"></embed>

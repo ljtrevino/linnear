@@ -198,6 +198,51 @@ import Crib6042 from '../../views/6.042/Crib';
   import Crib6042_C4 from '../../views/6.042/Crib4';
   import Crib6042_C5 from '../../views/6.042/CribFinal';
 
+
+  import Lecture6046 from '../../views/6.046/Lecture';
+  import Lecture6046_L1 from '../../views/6.046/Lecture1';
+  import Lecture6046_L2 from '../../views/6.046/Lecture2';
+  import Lecture6046_L3 from '../../views/6.046/Lecture3';
+  import Lecture6046_L4 from '../../views/6.046/Lecture4';
+  import Lecture6046_L5 from '../../views/6.046/Lecture5';
+  import Lecture6046_L6 from '../../views/6.046/Lecture6';
+  import Lecture6046_L7 from '../../views/6.046/Lecture7';
+  import Lecture6046_L8 from '../../views/6.046/Lecture8';
+  import Lecture6046_L9 from '../../views/6.046/Lecture9';
+  import Lecture6046_L10 from '../../views/6.046/Lecture10';
+  import Lecture6046_L11 from '../../views/6.046/Lecture11';
+  import Lecture6046_L12 from '../../views/6.046/Lecture12';
+  import Lecture6046_L13 from '../../views/6.046/Lecture13';
+  import Lecture6046_L14 from '../../views/6.046/Lecture14';
+  import Lecture6046_L15 from '../../views/6.046/Lecture15';
+  import Lecture6046_L16 from '../../views/6.046/Lecture16';
+  import Lecture6046_L17 from '../../views/6.046/Lecture17';
+  import Lecture6046_L18 from '../../views/6.046/Lecture18';
+  import Lecture6046_L19 from '../../views/6.046/Lecture19';
+  import Lecture6046_L20 from '../../views/6.046/Lecture20';
+  import Lecture6046_L21 from '../../views/6.046/Lecture21';
+  import Lecture6046_L22 from '../../views/6.046/Lecture22';
+  import Lecture6046_L23 from '../../views/6.046/Lecture23';
+  import Lecture6046_L24 from '../../views/6.046/Lecture24';
+
+import Recitation6046 from '../../views/6.046/Recitation';
+  import Recitation6046_R1 from '../../views/6.046/Recitation1';
+  import Recitation6046_R2 from '../../views/6.046/Recitation2';
+  import Recitation6046_R3 from '../../views/6.046/Recitation3';
+  import Recitation6046_R4 from '../../views/6.046/Recitation4';
+  import Recitation6046_R5 from '../../views/6.046/Recitation5';
+  import Recitation6046_R6 from '../../views/6.046/Recitation6';
+  import Recitation6046_R7 from '../../views/6.046/Recitation7';
+  import Recitation6046_R8 from '../../views/6.046/Recitation8';
+  import Recitation6046_R9 from '../../views/6.046/Recitation9';
+  import Recitation6046_R10 from '../../views/6.046/Recitation10';
+  import Recitation6046_R11 from '../../views/6.046/Recitation11';
+
+  import Crib6046 from '../../views/6.046/Crib';
+  import Crib6046_Final from '../../views/6.046/CribFinal';
+  import Crib6046_Q1 from '../../views/6.046/CribQuiz1';
+  import Crib6046_Q2 from '../../views/6.046/CribQuiz2';
+
 import Lecture608 from '../../views/6.08/Lecture';
   import Lecture608_L1 from '../../views/6.08/Lecture1';
   import Lecture608_L2 from '../../views/6.08/Lecture2';
@@ -285,6 +330,37 @@ import Lecture1470 from '../../views/14.70/Lecture';
   import Lecture1470_L11 from '../../views/14.70/Lecture11';
   import Lecture1470_L12 from '../../views/14.70/Lecture12';
   import Lecture1470_L13 from '../../views/14.70/Lecture13';
+  
+
+  import Textbook1402 from '../../views/14.02/Textbook';
+  import Textbook1402_T2 from '../../views/14.02/Textbook2';
+  import Textbook1402_T3 from '../../views/14.02/Textbook3';
+  import Textbook1402_T1 from '../../views/14.02/Textbook1';
+  import Textbook1402_T4 from '../../views/14.02/Textbook4';
+  import Textbook1402_T5 from '../../views/14.02/Textbook5';
+  import Textbook1402_T6 from '../../views/14.02/Textbook6';
+  import Textbook1402_T7 from '../../views/14.02/Textbook7';
+  import Textbook1402_T8 from '../../views/14.02/Textbook8';
+  import Textbook1402_T9 from '../../views/14.02/Textbook9';
+  import Textbook1402_T10 from '../../views/14.02/Textbook10';
+  import Textbook1402_T11 from '../../views/14.02/Textbook11';
+  import Textbook1402_T12 from '../../views/14.02/Textbook12';
+  import Textbook1402_T13 from '../../views/14.02/Textbook13';
+  import Textbook1402_T14 from '../../views/14.02/Textbook14';
+  import Textbook1402_T17 from '../../views/14.02/Textbook17';
+  import Textbook1402_T18 from '../../views/14.02/Textbook18';
+  import Textbook1402_T19 from '../../views/14.02/Textbook19';
+
+  import Crib1402 from '../../views/14.02/Crib';
+  import Crib1402_C1 from '../../views/14.02/Crib1';
+  import Crib1402_C2 from '../../views/14.02/Crib2';
+  import Crib1402_C3 from '../../views/14.02/Crib3';
+
+  import Crib21M011 from '../../views/21M.011/Crib';
+  import Crib21M011_Final from '../../views/21M.011/CribFinal';
+  import Crib21M011_E1 from '../../views/21M.011/CribExam1';
+  import Crib21M011_E2 from '../../views/21M.011/CribExam2';
+  import Crib21M011_E3 from '../../views/21M.011/CribExam3';
 
 // BGHS
 import APPhysics1 from '../../views/APPhysics1/Home';
@@ -359,21 +435,23 @@ class Full extends Component {
                 <Route path="/6.042/Textbook" name="Textbook" component={Textbook6042}/>
                 <Route path="/6.042/Pset" name="Pset" component={Pset6042}/>
                 <Route path="/6.042/Crib" name="Crib" component={Crib6042}/>
+                <Route path="/6.046/Lecture" name="Lecture" component={Lecture6046}/>
+                <Route path="/6.046/Recitation" name="Recitation" component={Recitation6046}/>
+                <Route path="/6.046/Crib" name="Crib" component={Crib6046}/>
                 <Route path="/6.08/Lecture" name="Lecture" component={Lecture608}/>
                 <Route path="/6.08/Crib" name="Crib" component={Crib608}/>
                 <Route path="/7.012/Lecture" name="Lecture" component={Lecture7012}/>
                 <Route path="/7.012/Recitation" name="Recitation" component={Recitation7012}/>
                 <Route path="/14.70/Lecture" name="Lecture" component={Lecture1470}/>
+                <Route path="/14.02/Textbook" name="Textbook" component={Textbook1402}/>
+                <Route path="/14.02/Crib" name="Crib" component={Crib1402}/>
+                <Route path="/21M.011/Crib" name="Crib" component={Crib21M011}/>
                 <Route path="/APPhysics1/Home" name="APPhysics1" component={APPhysics1}/>
                 <Route path="/APPhysicsC/APPhysicsC" name="APPhysicsC" component={APPhysicsC}/>
                 <Route path="/APEcon/APEcon" name="APEcon" component={APEcon}/>
                 <Route path="/APCalcBC/APCalcBC" name="APCalcBC" component={APCalcBC}/>
                 <Route path="/Calc3/Calc3" name="Calc3" component={Calc3}/>
                 <Route path="/DiffEq/DiffEq" name="DiffEq" component={DiffEq}/>
-
-                <Route path="/6.006/CribFinal" component={Crib6006_Final}/>
-                <Route path="/6.006/CribQuiz1" component={Crib6006_Q1}/>
-                <Route path="/6.006/CribQuiz2" component={Crib6006_Q2}/>
 
                 <Route path="/3.091/CribFinal" component={Crib3091_Final}/>
                 <Route path="/3.091/CribExam1" component={Crib3091_E1}/>
@@ -464,6 +542,10 @@ class Full extends Component {
                 <Route path="/6.006/Recitation19" component={Recitation6006_R19}/>
                 <Route path="/6.006/Recitation20" component={Recitation6006_R20}/>
                 <Route path="/6.006/Recitation21" component={Recitation6006_R21}/>
+
+                <Route path="/6.006/CribFinal" component={Crib6006_Final}/>
+                <Route path="/6.006/CribQuiz1" component={Crib6006_Q1}/>
+                <Route path="/6.006/CribQuiz2" component={Crib6006_Q2}/>
                 
 
                 <Route path="/6.009/Lecture1" component={Lecture6009_L1}/>
@@ -542,6 +624,47 @@ class Full extends Component {
                 <Route path="/6.042/Crib3" component={Crib6042_C3}/>
                 <Route path="/6.042/Crib4" component={Crib6042_C4}/>
                 <Route path="/6.042/CribFinal" component={Crib6042_C5}/>
+
+                <Route path="/6.046/Lecture1" component={Lecture6046_L1}/>
+                <Route path="/6.046/Lecture2" component={Lecture6046_L2}/>
+                <Route path="/6.046/Lecture3" component={Lecture6046_L3}/>
+                <Route path="/6.046/Lecture4" component={Lecture6046_L4}/>
+                <Route path="/6.046/Lecture5" component={Lecture6046_L5}/>
+                <Route path="/6.046/Lecture6" component={Lecture6046_L6}/>
+                <Route path="/6.046/Lecture7" component={Lecture6046_L7}/>
+                <Route path="/6.046/Lecture8" component={Lecture6046_L8}/>
+                <Route path="/6.046/Lecture9" component={Lecture6046_L9}/>
+                <Route path="/6.046/Lecture10" component={Lecture6046_L10}/>
+                <Route path="/6.046/Lecture11" component={Lecture6046_L11}/>
+                <Route path="/6.046/Lecture12" component={Lecture6046_L12}/>
+                <Route path="/6.046/Lecture13" component={Lecture6046_L13}/>
+                <Route path="/6.046/Lecture14" component={Lecture6046_L14}/>
+                <Route path="/6.046/Lecture15" component={Lecture6046_L15}/>
+                <Route path="/6.046/Lecture16" component={Lecture6046_L16}/>
+                <Route path="/6.046/Lecture17" component={Lecture6046_L17}/>
+                <Route path="/6.046/Lecture18" component={Lecture6046_L18}/>
+                <Route path="/6.046/Lecture19" component={Lecture6046_L19}/>
+                <Route path="/6.046/Lecture20" component={Lecture6046_L20}/>
+                <Route path="/6.046/Lecture21" component={Lecture6046_L21}/>
+                <Route path="/6.046/Lecture22" component={Lecture6046_L22}/>
+                <Route path="/6.046/Lecture23" component={Lecture6046_L23}/>
+                <Route path="/6.046/Lecture24" component={Lecture6046_L24}/>
+
+                <Route path="/6.046/Recitation1" component={Recitation6046_R1}/>
+                <Route path="/6.046/Recitation2" component={Recitation6046_R2}/>
+                <Route path="/6.046/Recitation3" component={Recitation6046_R3}/>
+                <Route path="/6.046/Recitation4" component={Recitation6046_R4}/>
+                <Route path="/6.046/Recitation5" component={Recitation6046_R5}/>
+                <Route path="/6.046/Recitation6" component={Recitation6046_R6}/>
+                <Route path="/6.046/Recitation7" component={Recitation6046_R7}/>
+                <Route path="/6.046/Recitation8" component={Recitation6046_R8}/>
+                <Route path="/6.046/Recitation9" component={Recitation6046_R9}/>
+                <Route path="/6.046/Recitation10" component={Recitation6046_R10}/>
+                <Route path="/6.046/Recitation11" component={Recitation6046_R11}/>
+
+                <Route path="/6.046/CribFinal" component={Crib6046_Final}/>
+                <Route path="/6.046/CribQuiz1" component={Crib6046_Q1}/>
+                <Route path="/6.046/CribQuiz2" component={Crib6046_Q2}/>
 
                 <Route path="/6.08/Lecture1" component={Lecture608_L1}/>
                 <Route path="/6.08/Lecture2" component={Lecture608_L2}/>
@@ -626,6 +749,32 @@ class Full extends Component {
                 <Route path="/14.70/Lecture12" component={Lecture1470_L12}/>
                 <Route path="/14.70/Lecture13" component={Lecture1470_L13}/>
 
+                <Route path="/14.02/Textbook1" component={Textbook1402_T1}/>
+                <Route path="/14.02/Textbook2" component={Textbook1402_T2}/>
+                <Route path="/14.02/Textbook3" component={Textbook1402_T3}/>
+                <Route path="/14.02/Textbook4" component={Textbook1402_T4}/>
+                <Route path="/14.02/Textbook5" component={Textbook1402_T5}/>
+                <Route path="/14.02/Textbook6" component={Textbook1402_T6}/>
+                <Route path="/14.02/Textbook7" component={Textbook1402_T7}/>
+                <Route path="/14.02/Textbook8" component={Textbook1402_T8}/>
+                <Route path="/14.02/Textbook9" component={Textbook1402_T9}/>
+                <Route path="/14.02/Textbook10" component={Textbook1402_T10}/>
+                <Route path="/14.02/Textbook11" component={Textbook1402_T11}/>
+                <Route path="/14.02/Textbook12" component={Textbook1402_T12}/>
+                <Route path="/14.02/Textbook13" component={Textbook1402_T13}/>
+                <Route path="/14.02/Textbook14" component={Textbook1402_T14}/>
+                <Route path="/14.02/Textbook17" component={Textbook1402_T17}/>
+                <Route path="/14.02/Textbook18" component={Textbook1402_T18}/>
+                <Route path="/14.02/Textbook19" component={Textbook1402_T19}/>
+
+                <Route path="/14.02/Crib1" component={Crib1402_C1}/>
+                <Route path="/14.02/Crib2" component={Crib1402_C2}/>
+                <Route path="/14.02/Crib3" component={Crib1402_C3}/>
+
+                <Route path="/21M.011/CribFinal" component={Crib21M011_Final}/>
+                <Route path="/21M.011/CribExam1" component={Crib21M011_E1}/>
+                <Route path="/21M.011/CribExam2" component={Crib21M011_E2}/>
+                <Route path="/21M.011/CribExam3" component={Crib21M011_E3}/>
 
                 <Route path="/APPhysics1/APPhysics11" component={APPhysics11}/>
                 <Route path="/APPhysics1/APPhysics12" component={APPhysics12}/>
@@ -656,8 +805,6 @@ class Full extends Component {
 
                 <Route path="/APPhysicsC/APPhysicsC1" component={APPhysicsC1}/>
                 <Route path="/APPhysicsC/APPhysicsC2" component={APPhysicsC2}/>
-
-       
 
                 <Route path="/DiffEq/DiffEq1" component={DiffEq1}/>
                 <Route path="/DiffEq/DiffEq2" component={DiffEq2}/>

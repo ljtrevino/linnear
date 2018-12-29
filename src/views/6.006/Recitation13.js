@@ -9,7 +9,7 @@ class Cards extends Component {
           <Col xs="12" sm="12" md="12">
             <Card style={{height: 80 + "vh"}} className="card-accent-primary">
               <CardHeader>
-                Recitation 13
+                Recitation 13 - Weighted Graphs
               </CardHeader>
               <CardBlock className="card-body">
                  <embed style={{height: 70 + "vh"}} width="100%" src="https://drive.google.com/file/d/1mDW-1dtqUdujyLxqh5C3184i0rUfdfxx/preview"></embed>

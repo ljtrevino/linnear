@@ -9,7 +9,7 @@ class Cards extends Component {
           <Col xs="12" sm="12" md="12">
             <Card style={{height: 80 + "vh"}} className="card-accent-primary">
               <CardHeader>
-                Recitation 8
+                Recitation 8 - Dynamic Arrays & Amortization
               </CardHeader>
               <CardBlock className="card-body">
                  <embed style={{height: 70 + "vh"}} width="100%" src="https://drive.google.com/file/d/1IWZt-sLC1Mn_FerPaPjr6wZSXJ_W-YVC/preview"></embed>

@@ -95,6 +95,27 @@ export default {
       ]
     },
     {
+      name: '6.046',
+      url: '/6.046',
+      icon: 'fas fa-infinity',
+      children: [
+        {
+          name: 'Lecture Notes',
+          url: '/6.046/Lecture',
+          icon: 'fas fa-infinity'
+        },
+        {
+          name: 'Recitation Notes',
+          url: '/6.046/Recitation',
+          icon: 'fas fa-infinity'
+        },
+        {
+          name: 'Crib Sheets',
+          url: '/6.046/Crib',
+          icon: 'fas fa-infinity'
+        }
+    ]},
+    {
       name: '6.08',
       url: '/6.08',
       icon: 'fas fa-server',
@@ -129,6 +150,23 @@ export default {
       ]
     },
     {
+      name: '14.02',
+      url: '/14.02',
+      icon: 'fas fa-donate',
+      children: [
+        {
+          name: 'Textbook Notes',
+          url: '/14.02/Textbook',
+          icon: 'fas fa-donate'
+        },
+        {
+          name: 'Crib Sheets',
+          url: '/14.02/Crib',
+          icon: 'fas fa-donate'
+        }
+      ]
+    },
+    {
       name: '14.70',
       url: '/icons',
       icon: 'fas fa-map',
@@ -137,6 +175,18 @@ export default {
           name: 'Lecture Notes',
           url: '/14.70/Lecture',
           icon: 'fas fa-map'
+        }
+      ]
+    },
+    {
+      name: '21M.011',
+      url: '/21M.011',
+      icon: 'fas fa-music',
+      children: [
+        {
+          name: 'Study Sheets',
+          url: '/21M.011/Crib',
+          icon: 'fas fa-music'
         }
       ]
     },
