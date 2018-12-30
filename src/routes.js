@@ -1,7 +1,7 @@
 const routes = {
-  '/': 'Home',
-  '/Dashboard': 'Dashboard',
-  '/Home': 'Home',
+  '/': 'Info',
+  '/Dashboard': 'Home',
+  '/Home': 'Info',
   '/6.009/Lecture': '6.009 Lecture',
   '/6.009/Tutorial': '6.009 Tutorial',
   '/3.091/Lecture': '3.091 Lecture',

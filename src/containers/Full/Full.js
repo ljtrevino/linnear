@@ -8,7 +8,7 @@ import Aside from '../../components/Aside/';
 import Footer from '../../components/Footer/';
 
 //MIT
-import Dashboard from '../../views/Dashboard/';
+// import Dashboard from '../../views/Dashboard/';
 import Home from '../../views/Dashboard/Home';
 import Welcome from '../../views/Dashboard/Welcome';
 import FAQ from '../../views/Dashboard/FAQ';
@@ -420,7 +420,7 @@ class Full extends Component {
             <Breadcrumb />
             <Container fluid>
               <Switch>
-                <Route path="/Dashboard" name="Dashboard" component={Dashboard}/>
+                <Route path="/Dashboard" name="Dashboard" component={Home}/>
                 <Route path="/Welcome" name="Welcome" component={Welcome}/>
                 <Route path="/FAQ" name="FAQ" component={FAQ}/>
                 <Route path="/Home" name="Home" component={Home}/>
@@ -814,7 +814,7 @@ class Full extends Component {
 
                 <Route path="/APEcon/Micro" component={Micro}/>
 
-                <Redirect from="/" to="/dashboard"/>
+                <Redirect from="/" to="/Home"/>
               </Switch>
             </Container>
           </main>
