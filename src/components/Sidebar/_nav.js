@@ -3,11 +3,7 @@ export default {
     {
       name: 'Home',
       url: '/Home',
-      icon: 'icon-clock',
-//      badge: {
-//        variant: 'info',
-//        text: 'NEW'
-//      }
+      icon: 'fas fa-home'
     },
     {
       title: true,
