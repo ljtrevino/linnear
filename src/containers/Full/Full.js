@@ -137,6 +137,42 @@ import Crib6006 from '../../views/6.006/Crib';
   import Crib6006_Q2 from '../../views/6.006/CribQuiz2';
 
 
+import Readings6031 from '../../views/6.031/Readings';
+  import Reading6031_R1 from '../../views/6.031/Reading1';
+  import Reading6031_R2 from '../../views/6.031/Reading2';
+  import Reading6031_R3 from '../../views/6.031/Reading3';
+  import Reading6031_R4 from '../../views/6.031/Reading4';
+  import Reading6031_R5 from '../../views/6.031/Reading5';
+  import Reading6031_R6 from '../../views/6.031/Reading6';
+  import Reading6031_R7 from '../../views/6.031/Reading7';
+  import Reading6031_R8 from '../../views/6.031/Reading8';
+  import Reading6031_R9 from '../../views/6.031/Reading9';
+  import Reading6031_R10 from '../../views/6.031/Reading10';
+  import Reading6031_R11 from '../../views/6.031/Reading11';
+  import Reading6031_R12 from '../../views/6.031/Reading12';
+  import Reading6031_R13 from '../../views/6.031/Reading13';
+  import Reading6031_R14 from '../../views/6.031/Reading14';
+  import Reading6031_R15 from '../../views/6.031/Reading15';
+  import Reading6031_R16 from '../../views/6.031/Reading16';
+  import Reading6031_R17 from '../../views/6.031/Reading17';
+  import Reading6031_R18 from '../../views/6.031/Reading18';
+  import Reading6031_R19 from '../../views/6.031/Reading19';
+  import Reading6031_R20 from '../../views/6.031/Reading20';
+  import Reading6031_R21 from '../../views/6.031/Reading21';
+  import Reading6031_R22 from '../../views/6.031/Reading22';
+  import Reading6031_R23 from '../../views/6.031/Reading23';
+  import Reading6031_R24 from '../../views/6.031/Reading24';
+  import Reading6031_R25 from '../../views/6.031/Reading25';
+  import Reading6031_R26 from '../../views/6.031/Reading26';
+  import Reading6031_R27 from '../../views/6.031/Reading27';
+  import Reading6031_R28 from '../../views/6.031/Reading28';
+  import Reading6031_R29 from '../../views/6.031/Reading29';
+
+import Crib6031 from '../../views/6.031/Crib';
+  import Crib6031_Q1 from '../../views/6.031/CribQuiz1';
+  import Crib6031_Q2 from '../../views/6.031/CribQuiz2';
+
+
 import Textbook6042 from '../../views/6.042/Textbook';
   import Textbook6042_T1 from '../../views/6.042/Textbook1';
   import Textbook6042_T2 from '../../views/6.042/Textbook2';
@@ -330,7 +366,7 @@ import Lecture1470 from '../../views/14.70/Lecture';
   import Lecture1470_L11 from '../../views/14.70/Lecture11';
   import Lecture1470_L12 from '../../views/14.70/Lecture12';
   import Lecture1470_L13 from '../../views/14.70/Lecture13';
-  
+
 
   import Textbook1402 from '../../views/14.02/Textbook';
   import Textbook1402_T2 from '../../views/14.02/Textbook2';
@@ -432,6 +468,8 @@ class Full extends Component {
                 <Route path="/6.006/Lecture" name="Lecture" component={Lecture6006}/>
                 <Route path="/6.006/Recitation" name="Recitation" component={Recitation6006}/>
                 <Route path="/6.006/Crib" name="Crib" component={Crib6006}/>
+                <Route path="/6.031/Readings" name="Readings" component={Readings6031}/>
+                <Route path="/6.031/Crib" name="Crib" component={Crib6031}/>
                 <Route path="/6.042/Textbook" name="Textbook" component={Textbook6042}/>
                 <Route path="/6.042/Pset" name="Pset" component={Pset6042}/>
                 <Route path="/6.042/Crib" name="Crib" component={Crib6042}/>
@@ -494,7 +532,7 @@ class Full extends Component {
                 <Route path="/3.091/Lecture34" component={Lecture3091_L34}/>
                 <Route path="/3.091/Lecture35" component={Lecture3091_L35}/>
                 <Route path="/3.091/Lecture36" component={Lecture3091_L36}/>
-                
+
 
                 <Route path="/6.006/Lecture1" component={Lecture6006_L1}/>
                 <Route path="/6.006/Lecture2" component={Lecture6006_L2}/>
@@ -546,7 +584,7 @@ class Full extends Component {
                 <Route path="/6.006/CribFinal" component={Crib6006_Final}/>
                 <Route path="/6.006/CribQuiz1" component={Crib6006_Q1}/>
                 <Route path="/6.006/CribQuiz2" component={Crib6006_Q2}/>
-                
+
 
                 <Route path="/6.009/Lecture1" component={Lecture6009_L1}/>
                 <Route path="/6.009/Lecture2" component={Lecture6009_L2}/>
@@ -568,6 +606,40 @@ class Full extends Component {
                 <Route path="/6.009/Tutorial7" component={Tutorial6009_T7}/>
                 <Route path="/6.009/Tutorial8" component={Tutorial6009_T8}/>
                 <Route path="/6.009/Tutorial9" component={Tutorial6009_T9}/>
+
+
+                <Route path="/6.031/CribQuiz1" component={Crib6031_Q1}/>
+                <Route path="/6.031/CribQuiz2" component={Crib6031_Q2}/>
+
+                <Route path="/6.031/Reading1" component={Reading6031_R1}/>
+                <Route path="/6.031/Reading2" component={Reading6031_R2}/>
+                <Route path="/6.031/Reading3" component={Reading6031_R3}/>
+                <Route path="/6.031/Reading4" component={Reading6031_R4}/>
+                <Route path="/6.031/Reading5" component={Reading6031_R5}/>
+                <Route path="/6.031/Reading6" component={Reading6031_R6}/>
+                <Route path="/6.031/Reading7" component={Reading6031_R7}/>
+                <Route path="/6.031/Reading8" component={Reading6031_R8}/>
+                <Route path="/6.031/Reading9" component={Reading6031_R9}/>
+                <Route path="/6.031/Reading10" component={Reading6031_R10}/>
+                <Route path="/6.031/Reading11" component={Reading6031_R11}/>
+                <Route path="/6.031/Reading12" component={Reading6031_R12}/>
+                <Route path="/6.031/Reading13" component={Reading6031_R13}/>
+                <Route path="/6.031/Reading14" component={Reading6031_R14}/>
+                <Route path="/6.031/Reading15" component={Reading6031_R15}/>
+                <Route path="/6.031/Reading16" component={Reading6031_R16}/>
+                <Route path="/6.031/Reading17" component={Reading6031_R17}/>
+                <Route path="/6.031/Reading18" component={Reading6031_R18}/>
+                <Route path="/6.031/Reading19" component={Reading6031_R19}/>
+                <Route path="/6.031/Reading20" component={Reading6031_R20}/>
+                <Route path="/6.031/Reading21" component={Reading6031_R21}/>
+                <Route path="/6.031/Reading22" component={Reading6031_R22}/>
+                <Route path="/6.031/Reading23" component={Reading6031_R23}/>
+                <Route path="/6.031/Reading24" component={Reading6031_R24}/>
+                <Route path="/6.031/Reading25" component={Reading6031_R25}/>
+                <Route path="/6.031/Reading26" component={Reading6031_R26}/>
+                <Route path="/6.031/Reading27" component={Reading6031_R27}/>
+                <Route path="/6.031/Reading28" component={Reading6031_R28}/>
+                <Route path="/6.031/Reading29" component={Reading6031_R29}/>
 
 
                 <Route path="/6.042/Textbook1" component={Textbook6042_T1}/>
@@ -734,7 +806,7 @@ class Full extends Component {
                 <Route path="/7.012/Recitation20" component={Recitation7012_R20}/>
                 <Route path="/7.012/Recitation21" component={Recitation7012_R21}/>
                 <Route path="/7.012/Recitation22" component={Recitation7012_R22}/>
-                
+
                 <Route path="/14.70/Lecture1" component={Lecture1470_L1}/>
                 <Route path="/14.70/Lecture2" component={Lecture1470_L2}/>
                 <Route path="/14.70/Lecture3" component={Lecture1470_L3}/>
@@ -827,8 +899,3 @@ class Full extends Component {
 }
 
 export default Full;
-
-
-
-                
-                
