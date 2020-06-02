@@ -101,6 +101,23 @@ export default {
       ],
     },
     {
+      name: "6.036",
+      url: "/6.036",
+      icon: "fas fa-code-branch",
+      children: [
+        {
+          name: "Lecture Notes",
+          url: "/6.036/Lecture",
+          icon: "fas fa-code-branch",
+        },
+        {
+          name: "Crib Sheets",
+          url: "/6.036/Crib",
+          icon: "fas fa-code-branch",
+        },
+      ],
+    },
+    {
       name: "6.042",
       url: "/6.042",
       icon: "fas fa-calculator",

@@ -197,6 +197,26 @@ import Lecture6033 from '../../views/6.033/Lecture';
   import Lecture6033_L21 from '../../views/6.033/Lecture21';
 
 
+  import Lecture6036 from '../../views/6.036/Lecture';
+    import Lecture6036_L1 from '../../views/6.036/Lecture1';
+    import Lecture6036_L2 from '../../views/6.036/Lecture2';
+    import Lecture6036_L3 from '../../views/6.036/Lecture3';
+    import Lecture6036_L4 from '../../views/6.036/Lecture4';
+    import Lecture6036_L5 from '../../views/6.036/Lecture5';
+    import Lecture6036_L6 from '../../views/6.036/Lecture6';
+    import Lecture6036_L7 from '../../views/6.036/Lecture7';
+    import Lecture6036_L8 from '../../views/6.036/Lecture8';
+    import Lecture6036_L9 from '../../views/6.036/Lecture9';
+    import Lecture6036_L10 from '../../views/6.036/Lecture10';
+    import Lecture6036_L11 from '../../views/6.036/Lecture11';
+    import Lecture6036_L12 from '../../views/6.036/Lecture12';
+
+  import Crib6036 from '../../views/6.036/Crib';
+    import Crib6036_Final from '../../views/6.036/CribFinal';
+    import Crib6036_Midterm from '../../views/6.036/CribMidterm';
+
+
+
 import Textbook6042 from '../../views/6.042/Textbook';
   import Textbook6042_T1 from '../../views/6.042/Textbook1';
   import Textbook6042_T2 from '../../views/6.042/Textbook2';
@@ -485,16 +505,18 @@ class Full extends Component {
                 <Route path="/FAQ" name="FAQ" component={FAQ}/>
                 <Route path="/Home" name="Home" component={Home}/>
                 <Route path="/components/cards" name="Cards" component={Cards}/>
-                <Route path="/6.009/Lecture" name="Lecture" component={Lecture6009}/>
-                <Route path="/6.009/Tutorial" name="Tutorial" component={Tutorial6009}/>
                 <Route path="/3.091/Lecture" name="Lecture" component={Lecture3091}/>
                 <Route path="/3.091/Crib" name="Crib" component={Crib3091}/>
                 <Route path="/6.006/Lecture" name="Lecture" component={Lecture6006}/>
                 <Route path="/6.006/Recitation" name="Recitation" component={Recitation6006}/>
                 <Route path="/6.006/Crib" name="Crib" component={Crib6006}/>
+                <Route path="/6.009/Lecture" name="Lecture" component={Lecture6009}/>
+                <Route path="/6.009/Tutorial" name="Tutorial" component={Tutorial6009}/>
                 <Route path="/6.031/Readings" name="Readings" component={Readings6031}/>
                 <Route path="/6.031/Crib" name="Crib" component={Crib6031}/>
                 <Route path="/6.033/Lecture" name="Lecture" component={Lecture6033}/>
+                <Route path="/6.036/Lecture" name="Lecture" component={Lecture6036}/>
+                <Route path="/6.036/Crib" name="Crib" component={Crib6036}/>
                 <Route path="/6.042/Textbook" name="Textbook" component={Textbook6042}/>
                 <Route path="/6.042/Pset" name="Pset" component={Pset6042}/>
                 <Route path="/6.042/Crib" name="Crib" component={Crib6042}/>
@@ -687,6 +709,24 @@ class Full extends Component {
                 <Route path="/6.033/Lecture19" component={Lecture6033_L19}/>
                 <Route path="/6.033/Lecture20" component={Lecture6033_L20}/>
                 <Route path="/6.033/Lecture21" component={Lecture6033_L21}/>
+
+
+                <Route path="/6.036/CribFinal" component={Crib6036_Final}/>
+                <Route path="/6.036/CribMidterm" component={Crib6036_Midterm}/>
+
+                <Route path="/6.036/Lecture1" component={Lecture6036_L1}/>
+                <Route path="/6.036/Lecture2" component={Lecture6036_L2}/>
+                <Route path="/6.036/Lecture3" component={Lecture6036_L3}/>
+                <Route path="/6.036/Lecture4" component={Lecture6036_L4}/>
+                <Route path="/6.036/Lecture5" component={Lecture6036_L5}/>
+                <Route path="/6.036/Lecture6" component={Lecture6036_L6}/>
+                <Route path="/6.036/Lecture7" component={Lecture6036_L7}/>
+                <Route path="/6.036/Lecture8" component={Lecture6036_L8}/>
+                <Route path="/6.036/Lecture9" component={Lecture6036_L9}/>
+                <Route path="/6.036/Lecture10" component={Lecture6036_L10}/>
+                <Route path="/6.036/Lecture11" component={Lecture6036_L11}/>
+                <Route path="/6.036/Lecture12" component={Lecture6036_L12}/>
+
 
                 <Route path="/6.042/Textbook1" component={Textbook6042_T1}/>
                 <Route path="/6.042/Textbook2" component={Textbook6042_T2}/>
