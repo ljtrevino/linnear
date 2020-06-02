@@ -89,6 +89,18 @@ export default {
       ],
     },
     {
+      name: "6.033",
+      url: "/6.033",
+      icon: "fas fa-sitemap",
+      children: [
+        {
+          name: "Lecture Notes",
+          url: "/6.033/Lecture",
+          icon: "fas fa-sitemap",
+        },
+      ],
+    },
+    {
       name: "6.042",
       url: "/6.042",
       icon: "fas fa-calculator",
@@ -135,17 +147,17 @@ export default {
     {
       name: "6.08",
       url: "/6.08",
-      icon: "fas fa-server",
+      icon: "fas fa-microchip",
       children: [
         {
           name: "Lecture Notes",
           url: "/6.08/Lecture",
-          icon: "fas fa-server",
+          icon: "fas fa-microchip",
         },
         {
           name: "Crib Sheets",
           url: "/6.08/Crib",
-          icon: "fas fa-server",
+          icon: "fas fa-microchip",
         },
       ],
     },

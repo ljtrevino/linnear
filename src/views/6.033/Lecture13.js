@@ -9,10 +9,10 @@ class Cards extends Component {
           <Col xs="12" sm="12" md="12">
             <Card style={{height: 80 + "vh"}} className="card-accent-primary">
               <CardHeader>
-                Quiz 2 Crib Sheet
+                Lecture 13
               </CardHeader>
               <CardBlock className="card-body">
-                 <embed style={{height: 70 + "vh"}} width="100%" src="https://drive.google.com/file/d/15JJa-1JstgpU-WQmnv9qsycURtT1e3is/preview"></embed>
+                 <embed style={{height: 70 + "vh"}} width="100%" src="https://drive.google.com/file/d/1M3sB9kmrXd_jviZgyCW-Suib0CxFtsfl/preview"></embed>
               </CardBlock>
             </Card>
           </Col>
