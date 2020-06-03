@@ -43,7 +43,7 @@ class Cards extends Component {
           </a>
           </Col>
         </Row>
-        
+
         <Row>
           <Col xs="12" sm="6" md="4">
           <a href="#/6.006/Lecture4" style={{ textDecoration: 'none', color: "black" }}>
@@ -82,7 +82,7 @@ class Cards extends Component {
           </a>
           </Col>
         </Row>
-        
+
         <Row>
           <Col xs="12" sm="6" md="4">
           <a href="#/6.006/Lecture7" style={{ textDecoration: 'none', color: "black" }}>
@@ -121,7 +121,7 @@ class Cards extends Component {
           </a>
           </Col>
         </Row>
-        
+
         <Row>
           <Col xs="12" sm="6" md="4">
           <a href="#/6.006/Lecture10" style={{ textDecoration: 'none', color: "black" }}>
@@ -199,7 +199,7 @@ class Cards extends Component {
           </a>
           </Col>
         </Row>
-        
+
         <Row>
           <Col xs="12" sm="6" md="4">
           <a href="#/6.006/Lecture16" style={{ textDecoration: 'none', color: "black" }}>
@@ -238,7 +238,7 @@ class Cards extends Component {
           </a>
           </Col>
         </Row>
-        
+
         <Row>
           <Col xs="12" sm="6" md="4">
           <a href="#/6.006/Lecture19" style={{ textDecoration: 'none', color: "black" }}>
@@ -277,7 +277,7 @@ class Cards extends Component {
           </a>
           </Col>
         </Row>
-        
+
         <Row>
           <Col xs="12" sm="6" md="4">
           <a href="#/6.006/Lecture22" style={{ textDecoration: 'none', color: "black" }}>
@@ -304,7 +304,7 @@ class Cards extends Component {
           </a>
           </Col>
         </Row>
-        
+
       </div>
 
     )

@@ -16,7 +16,7 @@ export default {
       class: "", // optional class names space delimited list for title item ex: "text-center"
     },
     {
-      name: "3.091",
+      name: "3.091 - Solid State Chemistry",
       url: "/3.091",
       icon: "fas fa-flask",
       children: [
@@ -33,7 +33,7 @@ export default {
       ],
     },
     {
-      name: "6.006",
+      name: "6.006 - Introduction to Algorithms",
       url: "/6.006",
       icon: "fas fa-project-diagram",
       children: [
@@ -55,7 +55,7 @@ export default {
       ],
     },
     {
-      name: "6.009",
+      name: "6.009 - Programming Fundamentals",
       url: "/6.009",
       icon: "fas fa-code",
       children: [
@@ -72,7 +72,7 @@ export default {
       ],
     },
     {
-      name: "6.031",
+      name: "6.031 - Software Construction",
       url: "/6.031",
       icon: "fas fa-laptop",
       children: [
@@ -89,7 +89,7 @@ export default {
       ],
     },
     {
-      name: "6.033",
+      name: "6.033 - Computer Systems",
       url: "/6.033",
       icon: "fas fa-sitemap",
       children: [
@@ -101,7 +101,7 @@ export default {
       ],
     },
     {
-      name: "6.036",
+      name: "6.036 - Machine Learning",
       url: "/6.036",
       icon: "fas fa-code-branch",
       children: [
@@ -118,7 +118,7 @@ export default {
       ],
     },
     {
-      name: "6.042",
+      name: "6.042 - Math for Computer Science",
       url: "/6.042",
       icon: "fas fa-calculator",
       children: [
@@ -140,7 +140,7 @@ export default {
       ],
     },
     {
-      name: "6.046",
+      name: "6.046 - Advanced Algorithms",
       url: "/6.046",
       icon: "fas fa-infinity",
       children: [
@@ -162,7 +162,7 @@ export default {
       ],
     },
     {
-      name: "6.08",
+      name: "6.08 - Interconnected Systems",
       url: "/6.08",
       icon: "fas fa-microchip",
       children: [
@@ -179,7 +179,7 @@ export default {
       ],
     },
     {
-      name: "7.012",
+      name: "7.012 - Introduction to Biology",
       url: "/7.012",
       icon: "fas fa-dna",
       children: [
@@ -196,7 +196,7 @@ export default {
       ],
     },
     {
-      name: "14.01",
+      name: "14.01 - Microeconomics",
       url: "/14.01",
       icon: "fas fa-money-bill-wave",
       children: [
@@ -218,7 +218,7 @@ export default {
       ],
     },
     {
-      name: "14.02",
+      name: "14.02 - Macroeconomics",
       url: "/14.02",
       icon: "fas fa-donate",
       children: [
@@ -235,7 +235,7 @@ export default {
       ],
     },
     {
-      name: "14.70",
+      name: "14.70 - Medieval Economics",
       url: "/icons",
       icon: "fas fa-map",
       children: [
@@ -247,7 +247,7 @@ export default {
       ],
     },
     {
-      name: "21M.011",
+      name: "21M.011 - Western Music",
       url: "/21M.011",
       icon: "fas fa-music",
       children: [
