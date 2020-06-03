@@ -196,6 +196,28 @@ export default {
       ],
     },
     {
+      name: "14.01",
+      url: "/14.01",
+      icon: "fas fa-money-bill-wave",
+      children: [
+        {
+          name: "Lecture Notes",
+          url: "/14.01/Lecture",
+          icon: "fas fa-money-bill-wave",
+        },
+        {
+          name: "Recitation Notes",
+          url: "/14.01/Recitation",
+          icon: "fas fa-money-bill-wave",
+        },
+        {
+          name: "Crib Sheets",
+          url: "/14.01/Crib",
+          icon: "fas fa-money-bill-wave",
+        },
+      ],
+    },
+    {
       name: "14.02",
       url: "/14.02",
       icon: "fas fa-donate",
