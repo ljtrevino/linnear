@@ -13,7 +13,7 @@ The site currently demonstrates basic functionality necessary to find and inspec
 * Aesthetic updates and theme toggling
 * Help page
 
-### Helpful commands:
+### Helpful commands
 * `npm start` to develop locally on localhost:8080
 * `npm run build` to build and deploy a new version of the site
 
